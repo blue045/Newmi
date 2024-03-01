@@ -56,8 +56,8 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
 
 
 # Telegram audio and video file size limit (in bytes)
-TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 2097152000))
-TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2097152000))
+TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 4194304000))
+TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 4194304000))
 # Checkout https://www.gbmb.org/mb-to-bytes for converting mb to bytes
 
 
@@ -78,21 +78,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/3466609313a46747a0c62.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/b5e5b5e19a8a8e91a631a.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/4bab8fbbfb3ce9015bf80.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/470aef0ea3a09d9f62bcb.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/73e32413c2c09af5ef2da.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/a9bf3ca48ff66bf9b1b47.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/c3791dc00b71575b4258d.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/34f6995c2c115e31076f3.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/50db519519987bd1a0102.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/a237ac919f31fac4779a9.png"
-YOUTUBE_IMG_URL = "https://telegra.ph/file/383b8a16d09f0a0897152.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/0dc84640a49751e0bfcf0.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/b215ec1b574d262061d24.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/6a5fa13175028bfdd799b.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/54379094480534c7e405e.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/7a6b50031967807eaefb1.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/a9bf3ca48ff66bf9b1b47.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/c3791dc00b71575b4258d.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/383b8a16d09f0a0897152.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/458a785a2c76dec1f810e.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/3466609313a46747a0c62.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/6213c15da1ab9d8e44846.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/06f2fc8a87b3c9f3f4ed8.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/a237ac919f31fac4779a9.jpg"
 
 
 def time_to_seconds(time):
